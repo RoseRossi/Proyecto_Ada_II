@@ -23,7 +23,7 @@ Siga estos pasos para ejecutar el proyecto en un entorno Windows:
 
    Abra una terminal y ejecute el siguiente comando para clonar el repositorio: 
    
-   ```shell git clone https://github.com/RoseRossi/Proyecto_1_Ada_II.git
+   git clone https://github.com/RoseRossi/Proyecto_1_Ada_II.git
    
 3. **Abrir el proyecto:**
 
