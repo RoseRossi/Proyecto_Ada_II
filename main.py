@@ -80,7 +80,7 @@ class AlgoritmosApp:
             self.display_result(resultado)
         end_time = time.time()  
         elapsed_time = end_time - start_time 
-        print(f"Tiempo de ejecución: {elapsed_time} segundos")
+        print(f"Tiempo de ejecución (Fuerza Bruta): {elapsed_time} segundos")
 
     def calculate_voraz(self):
         start_time = time.time()
@@ -89,7 +89,7 @@ class AlgoritmosApp:
             self.display_result(resultado)
         end_time = time.time()  
         elapsed_time = end_time - start_time 
-        print(f"Tiempo de ejecución: {elapsed_time} segundos")
+        print(f"Tiempo de ejecución (Voraz): {elapsed_time} segundos")
 
 
     def calculate_pd(self):
@@ -102,7 +102,7 @@ class AlgoritmosApp:
             self.display_result(resultado)
         end_time = time.time()  
         elapsed_time = end_time - start_time 
-        print(f"Tiempo de ejecución: {elapsed_time} segundos")
+        print(f"Tiempo de ejecución (Programación dinámica): {elapsed_time} segundos")
 
 
     def display_result(self, resultado):
